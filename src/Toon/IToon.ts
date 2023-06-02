@@ -1,6 +1,7 @@
-import { ITrack, TrackName } from "../Track/ITrack";
+import { Gag } from "../Gag/Gag";
+import { TrackName } from "../Gag/IGag";
 
 export interface IToon {
-    tracks: ITrack[];
+    gags: Gag[];
     priority: TrackName;
 }
